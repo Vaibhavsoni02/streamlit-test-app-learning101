@@ -6,6 +6,7 @@ Here's our first attempt at using data to create a table:
 import streamlit as st
 import pandas as pd
 
+
 with st.echo(code_location="above")
     df = pd.DataFrame({
       'first column': [1, 2, 3, 4],
